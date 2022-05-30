@@ -5,6 +5,7 @@ function RegisterPageTwo(){
     const [isAuth,setAuth]=useContext(AuthContext)
     return(
         <>
+        <h1 >{isAuth}</h1>
         <input placeholder="phone number" type="number"></input>
         <input placeholder="address" type="text"></input>
         <button>  <Link to="/register/one">Prev </Link></button>

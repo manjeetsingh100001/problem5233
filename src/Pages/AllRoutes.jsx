@@ -9,6 +9,7 @@ function AllRoutes(){
     return(
         <>
         <Routes>
+        <Route path="/" element={<h1> select the respective route for navigation</h1>}/>
             <Route path="/dashboard" element={
             <PrivateRoute>
             <Dashboard/>

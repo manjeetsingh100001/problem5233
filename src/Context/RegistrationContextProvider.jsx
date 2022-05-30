@@ -4,6 +4,7 @@ import { createContext, useState } from "react";
 const RegContext=createContext()
 
 function RegContextProvider({children}){
+    
     const [username,setUser]=useState("")
     const [password,setPassword]=useState("")
     const [address,setAddress]=useState("")
